@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7700ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #6a00ff;
+    color: gold;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.signup-form {
+    background-color: #8000ff;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.header {
+    background-color: #7b00ff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.neon {
+    font-size: 4rem;
+    color: rgb(255, 217, 0); /* Neon green color */
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(255, 217, 0), 0 0 20px rgb(255, 217, 0), 0 0 30px rgb(255, 217, 0), 0 0 40px rgb(255, 217, 0), 0 0 50px rgb(255, 217, 0), 0 0 60px rgb(255, 217, 0), 0 0 70px rgb(255, 217, 0);
+}
+.back-button {
+    position: fixed; /* Position relative to the viewport */
+    top: 50px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, purple, green);
+    border: 2px solid green;
+}
+
+.back-button:hover {
+    background-image: linear-gradient(to right, green, purple);
+}

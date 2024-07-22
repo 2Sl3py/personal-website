@@ -1,0 +1,52 @@
+body {
+    background-color: #111; /* Dark background */
+    color: #39FF14; /* Neon green */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    margin: 0;
+}
+
+.container {
+    border: 3px solid #39FF14; /* Neon green border */
+    padding: 20px;
+    box-shadow: 0 0 20px #39FF14; /* Neon glow effect */
+    border-radius: 10px;
+}
+
+.coming-soon {
+    font-size: 64px; /* Large text */
+    margin: 0;
+}
+header {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px;
+    text-align: center;
+}
+
+.coming-soon {
+    color: rgb(47, 255, 0);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.back-button {
+    position: fixed; /* Position relative to the viewport */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, purple, green);
+    border: 2px solid green;
+}
+
+.back-button:hover {
+    background-image: linear-gradient(to right, green, purple);
+}

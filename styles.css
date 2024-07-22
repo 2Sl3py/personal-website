@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    padding: 15px;
+}
+
+.logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 200px;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:{
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    background-color: purple;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background-color: black;
+    border: 2px solid purple;
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 18px;
+    color: #FFD700; /* Gold color for price */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.logo img {
+    height: 100px; /* Adjust height as needed */
+    width: auto; /* Keep aspect ratio */
+}
+
+.logo {
+    position: relative;
+    padding: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    left: 10;
+    top: 100%;
+    background-color: black;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo:hover .dropdown {
+    display: block;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    color: #0f0; /* Neon color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.dropdown a:hover {
+    color: #fff; /* Hover color */
+}
+
+body {
+    text-align: center; /* Centers text horizontally */
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(89, 0, 255, 0.1);
+}
+
+.header a {
+    text-decoration: none;
+    color: purple;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: #000000; /* Change color on hover */
+}
+
+
+.add-to-cart {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: #bf00ff; /* Green background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-to-cart:hover {
+    background-color: #218838; /* Darker green */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.add-to-cart:active {
+    transform: scale(0.95); /* Press effect */
+}
+
+.add-to-cart.disabled {
+    background-color: #ccc; /* Gray for disabled state */
+    cursor: not-allowed;
+}
+
+.add-to-cart {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: rgb(68, 255, 0);
+    background: linear-gradient(to bottom, #000000, #8800ff); /* Light to dark green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-to-cart:hover {
+    background: linear-gradient(to bottom, #5cb85c, #218838); /* Darker gradient on hover */
+    transform: scale(1.05);
+}
+
+.add-to-cart:active {
+    transform: scale(0.95);
+}

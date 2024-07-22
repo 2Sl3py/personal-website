@@ -1,0 +1,45 @@
+body {
+    background-color: #111;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    font-size: 36px;
+    color: neon green; /* Fallback; see below for the neon effect */
+}
+
+.about-box {
+    border: 3px solid #39FF14; /* Neon green */
+    background-color: #000; /* Black */
+    color: #9d00ff; /* Purple */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px #39FF14; /* Neon glow effect */
+    border-radius: 10px;
+}
+
+.about-box h2 {
+    margin-top: 0;
+}
+
+.back-button {
+    position: fixed; /* Position relative to the viewport */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, purple, green);
+    border: 2px solid green;
+}
+
+.back-button:hover {
+    background-image: linear-gradient(to right, green, purple);
+}
